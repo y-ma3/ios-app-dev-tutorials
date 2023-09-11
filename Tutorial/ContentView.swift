@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  Tutorial
-//
-//  Created by 釣悠馬 on 2023/09/11.
-//
-
 import SwiftUI
 
 struct ContentView: View {
