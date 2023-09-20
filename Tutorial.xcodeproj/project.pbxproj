@@ -15,6 +15,7 @@
 		5C2CF1DC2AAEF38700AF948C /* TutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2CF1DB2AAEF38700AF948C /* TutorialUITests.swift */; };
 		5C2CF1DE2AAEF38700AF948C /* TutorialUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2CF1DD2AAEF38700AF948C /* TutorialUITestsLaunchTests.swift */; };
 		5CD4C4F62ABB1F5200B041BA /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD4C4F52ABB1F5200B041BA /* Theme.swift */; };
+		5CD4C4F82ABB270300B041BA /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD4C4F72ABB270300B041BA /* DailyScrum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		5C2CF1DB2AAEF38700AF948C /* TutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialUITests.swift; sourceTree = "<group>"; };
 		5C2CF1DD2AAEF38700AF948C /* TutorialUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5CD4C4F52ABB1F5200B041BA /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		5CD4C4F72ABB270300B041BA /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				5CD4C4F52ABB1F5200B041BA /* Theme.swift */,
+				5CD4C4F72ABB270300B041BA /* DailyScrum.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CD4C4F82ABB270300B041BA /* DailyScrum.swift in Sources */,
 				5CD4C4F62ABB1F5200B041BA /* Theme.swift in Sources */,
 				5C2CF1C32AAEF38600AF948C /* MeetingView.swift in Sources */,
 				5C2CF1C12AAEF38600AF948C /* TutorialApp.swift in Sources */,
