@@ -14,6 +14,7 @@
 		5C2CF1D22AAEF38700AF948C /* TutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2CF1D12AAEF38700AF948C /* TutorialTests.swift */; };
 		5C2CF1DC2AAEF38700AF948C /* TutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2CF1DB2AAEF38700AF948C /* TutorialUITests.swift */; };
 		5C2CF1DE2AAEF38700AF948C /* TutorialUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2CF1DD2AAEF38700AF948C /* TutorialUITestsLaunchTests.swift */; };
+		5CD4C4F62ABB1F5200B041BA /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD4C4F52ABB1F5200B041BA /* Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		5C2CF1D72AAEF38700AF948C /* TutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C2CF1DB2AAEF38700AF948C /* TutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialUITests.swift; sourceTree = "<group>"; };
 		5C2CF1DD2AAEF38700AF948C /* TutorialUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5CD4C4F52ABB1F5200B041BA /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				5C2CF1C02AAEF38600AF948C /* TutorialApp.swift */,
 				5C2CF1C22AAEF38600AF948C /* MeetingView.swift */,
+				5CD4C4F42ABB1F0900B041BA /* Models */,
 				5C2CF1C42AAEF38700AF948C /* Assets.xcassets */,
 				5C2CF1C62AAEF38700AF948C /* Preview Content */,
 			);
@@ -125,6 +128,14 @@
 				5C2CF1DD2AAEF38700AF948C /* TutorialUITestsLaunchTests.swift */,
 			);
 			path = TutorialUITests;
+			sourceTree = "<group>";
+		};
+		5CD4C4F42ABB1F0900B041BA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5CD4C4F52ABB1F5200B041BA /* Theme.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CD4C4F62ABB1F5200B041BA /* Theme.swift in Sources */,
 				5C2CF1C32AAEF38600AF948C /* MeetingView.swift in Sources */,
 				5C2CF1C12AAEF38600AF948C /* TutorialApp.swift in Sources */,
 			);
