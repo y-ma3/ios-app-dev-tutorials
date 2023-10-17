@@ -1,10 +1,3 @@
-//
-//  ScrumsView.swift
-//  Tutorial
-//
-//  Created by Yuma on 2023/10/17.
-//
-
 import SwiftUI
 
 struct ScrumsView: View {
