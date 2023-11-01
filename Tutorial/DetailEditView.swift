@@ -1,10 +1,3 @@
-//
-//  DetailEditView.swift
-//  Tutorial
-//
-//  Created by Yuma on 2023/11/01.
-//
-
 import SwiftUI
 
 struct DetailEditView: View {
