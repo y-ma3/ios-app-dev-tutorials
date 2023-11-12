@@ -1,10 +1,3 @@
-//
-//  ThemeView.swift
-//  Tutorial
-//
-//  Created by Yuma on 2023/11/12.
-//
-
 import SwiftUI
 
 struct ThemeView: View {
