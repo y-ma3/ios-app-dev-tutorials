@@ -4,7 +4,8 @@ struct ThemeView: View {
     let theme: Theme
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text(theme.name)
+            .background(theme.mainColor)
     }
 }
 
