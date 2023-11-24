@@ -1,10 +1,3 @@
-//
-//  ThemePicker.swift
-//  Tutorial
-//
-//  Created by Yuma on 2023/11/24.
-//
-
 import SwiftUI
 
 struct ThemePicker: View {
